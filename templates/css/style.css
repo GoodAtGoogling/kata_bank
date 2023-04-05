@@ -1,0 +1,125 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .add-product {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #333;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  button.delete-btn {
+    background-color: #ff3333;
+  }
+
+  button.delete-btn:hover, button.edit-btn:hover, button#add-product-btn:hover {
+	background-color: #ddd;
+	color: rgb(128, 128, 128);
+  }
+  
+  button.edit-btn {
+    background-color: #33cc33;
+  }
+  
+  #add-product-btn {
+    background-color: #008CBA;
+  }
+  
+  td:first-child {
+    width: 60%;
+  }
+  
+  td:nth-child(2) {
+    width: 20%;
+  }
+  
+  td:last-child {
+    width: 20%;
+  }
+
+
+  /*############# Style for edit and View page ############"*/
+
+
+form {
+	width: 80%;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+input[type="text"], input[type="number"], textarea {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+button#cancel-btn {
+	background-color: #ff3333;
+}
+
+button#save-changes-btn {
+	background-color: #33cc33;
+}
+
+button#save-changes-btn:hover, button#cancel-btn:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+button#save-changes-btn:active, button#cancel-btn:active {
+	transform: translateY(2px);
+}
+
+button#save-changes-btn:focus, button#cancel-btn:focus {
+	outline: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+  
